@@ -16,10 +16,13 @@ export class WebActions {
     async fillElementText(locator: string, text: string): Promise<void> {
         await this.page.fill(locator, text);
     }
-    async cipherPassword(): Promise<string> {
+    async enterElementText(locator: string, text: string): Promise<void> {
+        await this.page.fill(locator, text);
+    }
+    async decipherPassword(): Promise<string> {
         const key = `SECRET`;
         //ENCRYPT
-        // const cipher = CryptoJS.AES.encrypt('demouat',key);
+        // const cipher = CryptoJS.AES.encrypt('pw',key);
         // console.log(cipher.toString());
         return CryptoJS.AES.decrypt(testconfig.password, key).toString(CryptoJS.enc.Utf8);
     }

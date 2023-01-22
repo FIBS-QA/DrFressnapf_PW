@@ -4,7 +4,7 @@ export const testconfig = {
     qaApi: ``,
     devApi: ``,
     username: `csilla.csipak@hu.fressnapf.eu`,
-    password: `U2FsdGVkX1+6691EJeW/QG2vpjUvj47EQBrTIN5BqZg=`,
+    password: `U2FsdGVkX1+TpxyUiPw+WSiKSPJJ147wRQEYLYfQU8U=`,
     waitForElement: 120000,
     dbUsername: ``,
     dbPassword: ``,

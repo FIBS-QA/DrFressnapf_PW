@@ -25,5 +25,7 @@ export class CookiePageActions extends CookiePageObjects {
         await this.AcceptCookieButton.click() 
         //await webActions.clickElement(this.AcceptCookieButton)
     }
-
+    async ValidateMainPage(): Promise<void> {
+        await this.MainPage.isVisible();
+    }
 }
