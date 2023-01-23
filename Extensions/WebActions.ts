@@ -31,7 +31,7 @@ export class WebActions {
     }
     async verifyElementIsVisible(locator: any, errorMessage: string): Promise<void> {
         await this.page.waitForSelector(locator, { state: `visible`, timeout: waitForElement })
-            .catch(() => { throw new Error(`${errorMessage}`); 
+            .catch(() => { throw new Error(`${errorMessage}`);
         });
     }
     async verifyElementText(locator: string, text: string): Promise<void> {

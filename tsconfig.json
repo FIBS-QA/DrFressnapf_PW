@@ -5,6 +5,7 @@
         "@pages/*":["pageActions/*"],
         "@objects/*":["pageObjects/*"],
         "@extensions/*":["extensions/*"],
+        "@navigations/*":["navigations/*"]
       }                                         
     }
   }

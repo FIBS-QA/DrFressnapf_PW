@@ -1,7 +1,6 @@
 import { CookiePageObjects } from '@objects/CookiePageObjects';
 import { WebActions } from '@extensions/WebActions';
-import { Locator, Page, expect } from '@playwright/test';
-import { testconfig } from 'testconfig';
+import { Page, expect } from '@playwright/test';
 
 let webActions: WebActions;
 
@@ -13,19 +12,13 @@ export class CookiePageActions extends CookiePageObjects {
         this.page = page;
         webActions = new WebActions(this.page);
     }
-
-    async navigateToURL(): Promise<void> {
-        await webActions.navigateToURL('https://dr.fressnapf.de/');
-    }
     async CookieDialogisVisible(): Promise<void> {
-        await expect(this.CookieDialog).toBeVisible() 
-        //await webActions.verifyElementIsVisible(this.CookieDialog, "Cookie dialog is not visible")
+        await expect(this.CookieDialog).toBeVisible()
     }
     async AcceptCookieDialog(): Promise<void> {
-        await this.AcceptCookieButton.click() 
-        //await webActions.clickElement(this.AcceptCookieButton)
+        await this.AcceptCookieButton.click()
     }
     async ValidateMainPage(): Promise<void> {
-        await this.MainPage.isVisible();
+        await this.MainPage.isVisible()
     }
 }

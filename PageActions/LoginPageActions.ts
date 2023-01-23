@@ -9,7 +9,7 @@ export class LoginPageActions extends LoginPageObjects {
     readonly page: Page;
 
     constructor(page: Page) {
-        super(page);
+        super();
         this.page = page;
         webActions = new WebActions(this.page);
     }
@@ -19,7 +19,4 @@ export class LoginPageActions extends LoginPageObjects {
         await webActions.enterElementText(LoginPageObjects.Login_Email, testconfig.username);
         await webActions.enterElementText(LoginPageObjects.Login_Password, decipherPassword);
     }
-    async clickSubmitButton(): Promise < void> {
-        await this.SubmitButton.click()
-        }
-    }
+}

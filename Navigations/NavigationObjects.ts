@@ -1,14 +1,13 @@
-import { expect, Locator, Page } from "@playwright/test";
+import { Locator, Page } from "@playwright/test";
 
-export class NavigateToBooking {
+export class NavigationObjects {
     readonly page: Page;
     readonly Booking: Locator;
+    readonly Signin: Locator;
 
     constructor(page: Page) {
         this.page = page;
         this.Booking = page.getByRole('link', { name: 'Jetzt buchen' })
-    }
-    async clickBookNowButton(): Promise<void> {
-        await this.Booking.click()
+        this.Signin = page.getByRole('button', { name: 'Anmelden' })
     }
 }
