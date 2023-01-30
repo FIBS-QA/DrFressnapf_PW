@@ -1,11 +1,19 @@
 {
     "compilerOptions": {
-      "baseUrl": ".",                                      /* Specify the base directory to resolve non-relative module names. */
-      "paths": {                                           /* Specify a set of entries that re-map imports to additional lookup locations. */
+      "baseUrl": ".",
+      "target": "ES2015",
+      "module": "ES2015",
+      "strict": false,
+      "removeComments": false,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "paths": {
         "@pages/*":["pageActions/*"],
         "@objects/*":["pageObjects/*"],
         "@extensions/*":["extensions/*"],
         "@navigations/*":["navigations/*"]
-      }                                         
+      }
     }
   }

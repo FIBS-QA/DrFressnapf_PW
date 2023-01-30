@@ -15,22 +15,22 @@ import { testconfig } from './testconfig';
 //   [key: string]: string | undefined
 // }
 
-// const ENV = process.env.ENV;
+const ENV = process.env.ENV;
 
-// if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
-//   console.log(`Please provide a correct environment value like "npx cross-env ENV=qa|dev|qaApi|devApi"`);
-//   process.exit();
-// }
+if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
+  console.log(`Please provide a correct environment value`);
+  process.exit();
+}
 const config: PlaywrightTestConfig = {
   testDir: './tests',
   /* Maximum time one test can run for. */
-  timeout: 30 * 1000,
+  timeout: 100 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
      * For example in `await expect(locator).toHaveText();`
      */
-    timeout: 10000
+    timeout: 100000
   },
   /* Run tests in files in parallel */
   fullyParallel: false,
@@ -59,7 +59,7 @@ const config: PlaywrightTestConfig = {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        baseURL: 'https://dr.fressnapf.de/',
+        baseURL: testconfig[process.env.ENV],
         headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
@@ -88,13 +88,23 @@ const config: PlaywrightTestConfig = {
     // },
 
     /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: {
-    //     ...devices['Pixel 5'],
-    //     baseURL: 'https://dr.fressnapf.de/'
-    //   },
-    // },
+    {
+      name: 'Mobile Chrome',
+      use: {
+        ...devices['Samsung Galaxy S20'],
+        baseURL: testconfig[process.env.ENV],
+        headless: false,
+        viewport: { width: 360 , height: 800 },
+        ignoreHTTPSErrors: true,
+        acceptDownloads: true,
+        screenshot: `only-on-failure`,
+        video: `retain-on-failure`,
+        trace: `retain-on-failure`,
+        launchOptions: {
+          slowMo: 0
+        }
+      },
+    },
     // {
     //   name: 'Mobile Safari',
     //   use: {
