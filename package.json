@@ -10,21 +10,20 @@
     "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
     "test:api": "npx playwright test --grep @API --workers=1 --project=Chrome",
     "test:db": "npx playwright test DB.test.ts --project=DB",
-    "test:record": "npx playwright codegen",
-    "test:visual": "npx playwright test visualComparision.test.ts --project=Chrome",
-    "test:device": "npx playwright test Emulation.test.ts --project=Device",
-    "allureReport": "allure serve",
-    "lighthouse": "node Lighthouse.js"
+    "test:record": "npx playwright codegen"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.29.2",
-    "@types/crypto-js": "^4.1.1"
+    "@types/adm-zip": "^0.5.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.11.18"
   },
   "dependencies": {
-    "@types/node": "^18.11.18",
+    "adm-zip": "^0.5.10",
     "cross-env": "^7.0.3",
     "crypto-js": "^4.1.1",
     "fs-extra": "^11.1.0"

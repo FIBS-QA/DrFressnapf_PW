@@ -2,19 +2,6 @@ import type { PlaywrightTestConfig } from '@playwright/test';
 import { devices } from '@playwright/test';
 import { testconfig } from './testconfig';
 
-/**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- */
-// require('dotenv').config();
-
-/**
- * See https://playwright.dev/docs/test-configuration.
- */
-// export interface ProcessEnv {
-//   [key: string]: string | undefined
-// }
-
 const ENV = process.env.ENV;
 
 if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
@@ -22,9 +9,21 @@ if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
   process.exit();
 }
 const config: PlaywrightTestConfig = {
+  //Global Setup to run before all tests
+  //globalSetup: `./global-setup`,
+
+  //Global Teardown to run after all tests
+  globalTeardown: `./global-teardown`,
+
+  //sets timeout for each test case
+  timeout: 1200000,
+
+  //number of retries if test case fails
+  retries: 0,
+
+  //Reporters
+  reporter: [[`html`, { outputFolder: 'html-report', open: 'never' }]],
   testDir: './tests',
-  /* Maximum time one test can run for. */
-  timeout: 100 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -37,11 +36,9 @@ const config: PlaywrightTestConfig = {
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  //retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
