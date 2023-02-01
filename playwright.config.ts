@@ -9,11 +9,6 @@ if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
   process.exit();
 }
 const config: PlaywrightTestConfig = {
-  //Global Setup to run before all tests
-  //globalSetup: `./global-setup`,
-
-  //Global Teardown to run after all tests
-  globalTeardown: `./global-teardown`,
 
   //sets timeout for each test case
   timeout: 1200000,
@@ -40,6 +35,7 @@ const config: PlaywrightTestConfig = {
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  globalTeardown: `./global-teardown`,
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
@@ -57,7 +53,7 @@ const config: PlaywrightTestConfig = {
       use: {
         ...devices['Desktop Chrome'],
         baseURL: testconfig[process.env.ENV],
-        headless: false,
+        headless: true,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
@@ -90,7 +86,7 @@ const config: PlaywrightTestConfig = {
       use: {
         ...devices['Samsung Galaxy S20'],
         baseURL: testconfig[process.env.ENV],
-        headless: false,
+        headless: true,
         viewport: { width: 360 , height: 800 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
