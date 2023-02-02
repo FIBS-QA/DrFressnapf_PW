@@ -15,14 +15,23 @@ test(`@Navigate to Login form an login`, async ({
     await test.step(`Click on Accept Cookies Button`, async () => {
         await cookiePageActions.AcceptCookieDialog()
     });
-    await test.step(`Click on Sign in button`, async () => {
+    await test.step(`Click on Book now button`, async () => {
         await navigationActions.clickBookNowButton()
     });
     await test.step(`Click on Sign in button`, async () => {
         await navigationActions.clickSigninButton()
     });
+    await test.step(`Attempt login with blank credentials`, async () => {
+        await navigationActions.clickSigninButton()
+    });
+    await test.step(`Click on Sign in button`, async () => {
+        await loginPageActions.enterInvalidLoginCredentials()
+    });
+    await test.step(`Attempt login with blank credentials`, async () => {
+        await navigationActions.clickSigninButton()
+    });
     await test.step(`Fill in username and password fields`, async () => {
-        await loginPageActions.enterLoginCredentials()
+        await loginPageActions.enterValidLoginCredentials()
     });
     await test.step(`Click on Sign in button`, async () => {
         await navigationActions.clickSigninButton()

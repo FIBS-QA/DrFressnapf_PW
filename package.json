@@ -23,6 +23,7 @@
     "@types/node": "^18.11.18"
   },
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
     "adm-zip": "^0.5.10",
     "cross-env": "^7.0.3",
     "crypto-js": "^4.1.1",

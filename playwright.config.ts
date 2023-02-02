@@ -11,7 +11,7 @@ if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
 const config: PlaywrightTestConfig = {
 
   //sets timeout for each test case
-  timeout: 1200000,
+  timeout: 350000,
 
   //number of retries if test case fails
   retries: 0,
@@ -53,7 +53,7 @@ const config: PlaywrightTestConfig = {
       use: {
         ...devices['Desktop Chrome'],
         baseURL: testconfig[process.env.ENV],
-        headless: true,
+        headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
@@ -86,7 +86,7 @@ const config: PlaywrightTestConfig = {
       use: {
         ...devices['Samsung Galaxy S20'],
         baseURL: testconfig[process.env.ENV],
-        headless: true,
+        headless: false,
         viewport: { width: 360 , height: 800 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
