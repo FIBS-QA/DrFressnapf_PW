@@ -1,0 +1,358 @@
+{
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "value": "i4k5cltrr705m5b6kd2h3npncr",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "19XeKC9kSFY",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DEVICE_INFO",
+      "value": "ChxOekU1TlRrek1UVXdNVEUxTmpZeE5ESTNPUT09EJOr9J4GGJOr9J4G",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1690985363.678562,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "oRgRVHbroR0",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1690985363.678727,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cmplz_consented_services",
+      "value": "",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cmplz_policy_id",
+      "value": "26",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cmplz_marketing",
+      "value": "allow",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cmplz_statistics",
+      "value": "allow",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cmplz_preferences",
+      "value": "allow",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cmplz_functional",
+      "value": "allow",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cmplz_banner-status",
+      "value": "dismissed",
+      "domain": "dr.fressnapf.de",
+      "path": "/",
+      "expires": 1706969366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.2001915518.1675433366",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1683209366,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "at_check",
+      "value": "true",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "0CD2669FC0396C1412EE7432C1E06D44",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1709129367.609304,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "demdex",
+      "value": "21690804398859395870333494957046922773",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1690985367.048878,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkwpX5lc78Cp5G_--lsJUJVbhBVIPtcQLpNuZlFNTJZgZbXRxiu4ynsB5sN",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1709129366.675132,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AMCVS_54CAE88E550C31530A4C98BC%40AdobeOrg",
+      "value": "1",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_ecid",
+      "value": "MCMID%7C21683147257230278240337125719684678886",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1709993370.915677,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1675433366822.207268691",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1683209370,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_fid",
+      "value": "392FFF9D07122157-2C16E3AB76605E6C",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1709993366.833741,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dpm",
+      "value": "21690804398859395870333494957046922773",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1690985367.04883,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_cc",
+      "value": "true",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCV_54CAE88E550C31530A4C98BC%40AdobeOrg",
+      "value": "179643557%7CMCIDTS%7C19392%7CMCMID%7C21683147257230278240337125719684678886%7CMCAAMLH-1676038166%7C6%7CMCAAMB-1676038166%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1675440566s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-19399%7CvVersion%7C5.5.0",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1709993367.095754,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dextp",
+      "value": "1586-1-1675433367107|144230-1-1675433367215",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1690985367,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_uetsid",
+      "value": "5e1633e0a3cc11edbbe8f737eccf0f6b",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1675519768,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "5e16af60a3cc11edacac7f50124d432b",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1709129368,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mbox",
+      "value": "session#564635e96dc54ab88c30adf235043e01#1675435230|PC#564635e96dc54ab88c30adf235043e01.37_0#1738678169",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": 1709993369.010121,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_sq",
+      "value": "%5B%5BB%5D%5D",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_stvi",
+      "value": "1675433370796",
+      "domain": ".fressnapf.de",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://dr.fressnapf.de",
+      "localStorage": [
+        {
+          "name": "auth_token",
+          "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiQUNDRVNTIiwiY29udGFjdFVpZCI6IjI0MzUxMWExZjkyNDQwYzE4ODI3YTJiY2JiOTg3NGZjIiwiZW1haWwiOiJjc2lsbGEuY3NpcGFrQGh1LmZyZXNzbmFwZi5ldSIsInJlZ2lzdHJhdGlvblNvdXJjZSI6ImRyLmZyZXNzbmFwZi5kZSIsImN1c3RvbUNsYWltcyI6W10sImV4cGlyZXNBdFRpbWVzdGFtcCI6MTY3NTUxOTc2OTQxNywiZXhwaXJlc0F0SVNPIjoiMjAyMy0wMi0wNFQxNDowOToyOS40MTdaIiwiaWF0IjoxNjc1NDMzMzY5LCJleHAiOjE2NzU1MTk3Njh9.zxiznIkWGWJ-uQFXzgHgNnwtB2MPTUjIhX-5Ovtjo2Uef58jxpsEgUc3aenk14Tn6rMRQfE_ZuRD9Z7Yh7V3Fya5BqXi2zcnCUTLiXuzPGKEvXe665K2yhsnJaFDGdr1q8lR_MGh2xYT4rgNY5qt02zaH0tShb3L1wjPkvqHwcoR_kaZFqCIbwtwkirGvyAOvHF30ZyU0r7HtHo_LMbYb-6191i01M7ZTkq-sXg8urDlt3YHo-tS2aTfXJGq6W-Ue-fYdLFYP2ExucNSt-uqoBhEvKLqxrFawppgzHXSEKZ2vWJ1VnWiGnRV_g-I4ZkqogHy1y5ZGjliHhbioH4VSJk3O6Cz2xkLO6UmUVDGHdCb4xXf_1Q-JOHppSELbjrtvPcvCijJk1leNKEuznSKVn4f5ryNV7SGCDAuQZreIPBqvbDB3lU6PgKvGpmyTwGl68BTg61cmCwBaE61L2Z41oAzOvqgkT5sYju-sXaMJdPtezqLivZaGxNnP9f3HcyNFvfIXwXH8FvvEiZdNNVzZbPdn_9F7V6i2DsJOzgXmMn2j6U3lMIDitF9HAUkOzEbfQNN3A5OI6tbGy-xoSO3iuKh79PNieXaDSNqpzag3VtRVFsn9XTAUV-BAv5UyTIXr1c90uYElWQcnUFIuERIXcNg6ZXocQ7D3Kh2NyCBEXY"
+        },
+        {
+          "name": "tgt:tlm:lower",
+          "value": "-1"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Sat, 04 Feb 2023 14:09:28 GMT"
+        },
+        {
+          "name": "tgt:tlm:0",
+          "value": "{\"execution\":266.3,\"parsing\":0,\"request\":{\"dns\":102.9,\"tls\":47.8,\"timeToFirstByte\":53.4,\"download\":0.9,\"responseSize\":308},\"telemetryServerToken\":\"6JefX4SixzpWNjo4zXr+4+WdyWHS2R6rzHJODkuLC8I=\",\"mode\":\"edge\",\"features\":{\"executePageLoad\":true,\"prefetchViewCount\":1,\"decisioningMethod\":\"server-side\"},\"requestId\":\"c7e5874915f045e69dd4a9769d8b3001\",\"timestamp\":1675433367018}"
+        },
+        {
+          "name": "vuex",
+          "value": "{\"settings\":{\"frontEndHost\":\"https://dr.fressnapf.de\",\"apiHost\":\"https://api.dr.fressnapf.de\",\"frontendHostTwilio\":\"https://video.dr.fressnapf.de\",\"ccaEnabled\":true,\"insurancesEnabled\":true,\"officeHours\":{\"regularOfficeHoursWorkingDayStart\":\"7\",\"regularOfficeHoursWorkingDayEnd\":\"24\",\"regularOfficeHoursWeekendStart\":\"7\",\"regularOfficeHoursWeekendEnd\":\"24\",\"isOnline\":true},\"bookingDownTime\":false},\"error\":null,\"currentStep\":1,\"config\":{\"apiUrl\":\"https://api.dr.fressnapf.de/api\",\"navigationApiUrl\":\"https://dr.fressnapf.de\"},\"layout\":{\"hasVisibleFooter\":false},\"serviceId\":null,\"availableVariantIds\":null,\"availableVariantSlugs\":null,\"prefilledDate\":false,\"appointment\":{\"reservationEndDate\":\"\",\"id\":null,\"orderId\":null,\"serviceVariantId\":null,\"serviceVariantSlug\":null,\"dateTime\":null,\"customerStatus\":\"login\",\"requireNewOrder\":false,\"selectedVet\":null,\"address\":{\"id\":null,\"salutation\":null,\"firstName\":null,\"lastName\":null,\"street\":null,\"houseNumber\":null,\"postCode\":null,\"city\":null,\"countryIso\":null,\"email\":null,\"phone\":null,\"phonePrefix\":null},\"pet\":{\"type\":null,\"name\":null,\"sex\":null,\"castration\":null,\"race\":null,\"raceId\":null,\"raceHybrid\":null,\"raceHybridId\":null,\"birthday\":null,\"weight\":null,\"bodyShape\":null,\"temperament\":null,\"appetite\":null,\"freeRoaming\":null,\"hasIntolerances\":null,\"intolerances\":null,\"walksPerDay\":null,\"walkDuration\":null,\"insurance\":{\"confirmationId\":null}},\"CCAPet\":{\"petId\":null,\"name\":null,\"sex\":null,\"castration\":null,\"race\":null,\"raceId\":null,\"raceHybrid\":null,\"raceHybridId\":null,\"birthday\":null}},\"healthTest\":{\"id\":null,\"pet\":{\"petId\":null,\"name\":null,\"sex\":null,\"castration\":null,\"race\":null,\"raceId\":null,\"raceHybrid\":null,\"raceHybridId\":null,\"birthday\":null}},\"auth\":{\"auth_token\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiQUNDRVNTIiwiY29udGFjdFVpZCI6IjI0MzUxMWExZjkyNDQwYzE4ODI3YTJiY2JiOTg3NGZjIiwiZW1haWwiOiJjc2lsbGEuY3NpcGFrQGh1LmZyZXNzbmFwZi5ldSIsInJlZ2lzdHJhdGlvblNvdXJjZSI6ImRyLmZyZXNzbmFwZi5kZSIsImN1c3RvbUNsYWltcyI6W10sImV4cGlyZXNBdFRpbWVzdGFtcCI6MTY3NTUxOTc2OTQxNywiZXhwaXJlc0F0SVNPIjoiMjAyMy0wMi0wNFQxNDowOToyOS40MTdaIiwiaWF0IjoxNjc1NDMzMzY5LCJleHAiOjE2NzU1MTk3Njh9.zxiznIkWGWJ-uQFXzgHgNnwtB2MPTUjIhX-5Ovtjo2Uef58jxpsEgUc3aenk14Tn6rMRQfE_ZuRD9Z7Yh7V3Fya5BqXi2zcnCUTLiXuzPGKEvXe665K2yhsnJaFDGdr1q8lR_MGh2xYT4rgNY5qt02zaH0tShb3L1wjPkvqHwcoR_kaZFqCIbwtwkirGvyAOvHF30ZyU0r7HtHo_LMbYb-6191i01M7ZTkq-sXg8urDlt3YHo-tS2aTfXJGq6W-Ue-fYdLFYP2ExucNSt-uqoBhEvKLqxrFawppgzHXSEKZ2vWJ1VnWiGnRV_g-I4ZkqogHy1y5ZGjliHhbioH4VSJk3O6Cz2xkLO6UmUVDGHdCb4xXf_1Q-JOHppSELbjrtvPcvCijJk1leNKEuznSKVn4f5ryNV7SGCDAuQZreIPBqvbDB3lU6PgKvGpmyTwGl68BTg61cmCwBaE61L2Z41oAzOvqgkT5sYju-sXaMJdPtezqLivZaGxNnP9f3HcyNFvfIXwXH8FvvEiZdNNVzZbPdn_9F7V6i2DsJOzgXmMn2j6U3lMIDitF9HAUkOzEbfQNN3A5OI6tbGy-xoSO3iuKh79PNieXaDSNqpzag3VtRVFsn9XTAUV-BAv5UyTIXr1c90uYElWQcnUFIuERIXcNg6ZXocQ7D3Kh2NyCBEXY\",\"user\":{\"id\":\"243511a1f92440c18827a2bcbb9874fc\",\"created\":\"2023-01-19T19:20:45.427+00:00\",\"firstName\":\"Csilla\",\"lastName\":\"Csipak\",\"email\":\"csilla.csipak@hu.fressnapf.eu\",\"salutation\":\"MRS\",\"loyaltyMemberships\":[],\"addresses\":[{\"id\":\"01GQ5QTFYBKZV9TNR8GYZ6NJQD\",\"salutation\":\"Frau\",\"firstName\":\"Csilla\",\"lastName\":\"Csipak\",\"street\":\"Weisserstrasse\",\"houseNumber\":\"13\",\"postCode\":\"50210\",\"city\":\"Köln\",\"phonePrefix\":\"49\",\"phone\":\"36204206769\",\"countryIso\":\"DE\",\"countryUsage\":{\"defaultBilling\":true,\"defaultShipping\":false}}],\"pets\":[{\"id\":\"01GQ5QXQR3QPAGNX7DTKA6YCPN\",\"name\":\"Matyi\",\"petType\":\"dog\",\"birthDate\":\"2010-10-10T00:00:00\",\"createdAt\":\"2023-01-19T19:26:07.619+00:00\",\"gender\":\"male\",\"raceId\":\"BOXER\",\"raceLabel\":\"Boxer\",\"isCastrated\":\"yes\",\"loyaltyMemberships\":null}]}},\"preSelections\":{\"service\":null,\"petInsuranceId\":null},\"userNewPet\":{\"pet\":{\"type\":null,\"races\":[{\"value\":null,\"label\":null}],\"name\":null,\"sex\":null,\"castration\":null,\"birthday\":null},\"callbackRoute\":null}}"
+        },
+        {
+          "name": "_uetvid",
+          "value": "5e16af60a3cc11edacac7f50124d432b"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Wed, 28 Feb 2024 14:09:28 GMT"
+        },
+        {
+          "name": "tgt:tlm:upper",
+          "value": "1"
+        },
+        {
+          "name": "tgt:tlm:1",
+          "value": "{\"execution\":204.9,\"parsing\":0,\"request\":{\"timeToFirstByte\":112.4,\"download\":0.6,\"responseSize\":310},\"telemetryServerToken\":\"6JefX4SixzpWNjo4zXr+4+WdyWHS2R6rzHJODkuLC8I=\",\"mode\":\"edge\",\"features\":{\"executePageLoad\":true,\"prefetchViewCount\":1,\"decisioningMethod\":\"server-side\"},\"requestId\":\"12bf0f580b9649d080c45dfa974fea99\",\"timestamp\":1675433368985}"
+        },
+        {
+          "name": "_uetsid",
+          "value": "5e1633e0a3cc11edbbe8f737eccf0f6b"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.youtube.com",
+      "localStorage": [
+        {
+          "name": "yt-remote-device-id",
+          "value": "{\"data\":\"4e246387-2e3d-4476-9143-10061e771fd4\",\"expiration\":1706969365568,\"creation\":1675433365568}"
+        },
+        {
+          "name": "yt-remote-connected-devices",
+          "value": "{\"data\":\"[]\",\"expiration\":1675519765583,\"creation\":1675433365583}"
+        },
+        {
+          "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1678025365613,\"creation\":1675433365613}"
+        }
+      ]
+    }
+  ]
+}

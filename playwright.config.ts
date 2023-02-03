@@ -34,9 +34,13 @@ const config: PlaywrightTestConfig = {
   //retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   globalTeardown: `./global-teardown`,
+  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  globalSetup: require.resolve('./globalSetupUI'),
+  //globalSetup: require.resolve('./globalSetupAPI'),
   use: {
+    //Tell all tests to load a signed-in state from 'storage.json'
+    storageState: 'storageState.json',
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */

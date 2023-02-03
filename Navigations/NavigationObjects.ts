@@ -9,5 +9,6 @@ export class NavigationObjects {
         this.page = page;
         this.Booking = page.getByRole('link', { name: 'Jetzt buchen' })
         this.Signin = page.getByRole('button', { name: 'Anmelden' })
+
     }
 }
