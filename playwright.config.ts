@@ -11,7 +11,7 @@ if (!ENV || ![`qa`, `dev`, `qaApi`, `devApi`].includes(ENV)) {
 const config: PlaywrightTestConfig = {
 
   //sets timeout for each test case
-  timeout: 350000,
+  timeout: 60000,
 
   //number of retries if test case fails
   retries: 0,
