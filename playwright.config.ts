@@ -40,7 +40,7 @@ const config: PlaywrightTestConfig = {
   //globalSetup: require.resolve('./globalSetupAPI'),
   use: {
     //Tell all tests to load a signed-in state from 'storage.json'
-    storageState: 'storageState.json',
+    //storageState: 'storageState.json',
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -85,23 +85,23 @@ const config: PlaywrightTestConfig = {
     // },
 
     /* Test against mobile viewports. */
-    {
-      name: 'Mobile Chrome',
-      use: {
-        ...devices['Samsung Galaxy S20'],
-        baseURL: testconfig[process.env.ENV],
-        headless: false,
-        viewport: { width: 360 , height: 800 },
-        ignoreHTTPSErrors: true,
-        acceptDownloads: true,
-        screenshot: `only-on-failure`,
-        video: `retain-on-failure`,
-        trace: `retain-on-failure`,
-        launchOptions: {
-          slowMo: 0
-        }
-      },
-    },
+    // {
+    //   name: 'Mobile Chrome',
+    //   use: {
+    //     ...devices['Samsung Galaxy S20'],
+    //     baseURL: testconfig[process.env.ENV],
+    //     headless: false,
+    //     viewport: { width: 360 , height: 800 },
+    //     ignoreHTTPSErrors: true,
+    //     acceptDownloads: true,
+    //     screenshot: `only-on-failure`,
+    //     video: `retain-on-failure`,
+    //     trace: `retain-on-failure`,
+    //     launchOptions: {
+    //       slowMo: 0
+    //     }
+    //   },
+    // },
     // {
     //   name: 'Mobile Safari',
     //   use: {

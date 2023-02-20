@@ -12,7 +12,9 @@ export class CookiePageActions extends CookiePageObjects {
         this.page = page;
         webActions = new WebActions(this.page);
     }
-    
+    async navigateToURL(): Promise<void> {
+        await webActions.navigateToURL(`/`);
+    }
     async CookieDialogisVisible(): Promise<void> {
         await expect(this.CookieDialog).toBeVisible()
         //await webActions.verifyElementIsVisible(this.CookieDialog)
